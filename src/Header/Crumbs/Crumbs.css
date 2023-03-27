@@ -1,0 +1,14 @@
+.crumbs {
+    color: #656565;
+}
+
+.navCrumbs {
+    text-decoration: none;
+    color: #656565;
+}
+
+@media (max-width: 420px) {
+    .crumbs {
+        font-size: 10px;
+    }
+}

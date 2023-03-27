@@ -1,0 +1,115 @@
+.modal-backdrop {
+    --bs-backdrop-bg: 0;
+}
+
+.modal-dialog {
+    margin-left: 290px;
+    margin-top: 162px;
+}
+
+
+.modal-content {
+    margin-top: 152px;
+    width: 677px;
+    /*height: 444px;*/
+    border: none;
+    box-shadow: 0px 30px 38px rgba(37, 37, 37, 0.1);
+}
+
+.modal-header {
+    border: none;
+}
+
+/*.modal-body {*/
+/*    height: 250px;*/
+/*}*/
+
+/*.modal-title {*/
+/*    margin: 13.5px 0 0 28px;*/
+/*}*/
+
+/*.dropDownBlock {*/
+/*    display: flex;*/
+/*    margin: 0 20px 0 30px;*/
+/*    gap: 87px;*/
+/*}*/
+
+/*.dropDownSample {*/
+/*    width: 240px;*/
+/*    height: 58px;*/
+/*}*/
+
+/*.dropdown-toggle {*/
+/*    background-color: #fff;*/
+/*    color: grey;*/
+/*    width: 240px;*/
+/*    justify-content: space-between;*/
+/*    border-color: #CDCDCD;*/
+/*}*/
+
+/*.domain {*/
+/*    margin: 0 20px 27px 30px;*/
+/*}*/
+
+/*.formSearch {*/
+/*    margin-top: 5.5px;*/
+/*    display: flex;*/
+/*    width: 567px;*/
+/*    height: 36px;*/
+/*}*/
+
+/*.searchInput {*/
+/*    width: 416px;*/
+/*    height: 36px;*/
+/*    background-color: #E6E6E9;*/
+/*    border: none;*/
+/*    border-radius: 2px 0 0 2px;*/
+/*    padding-left: 14px;*/
+/*}*/
+
+/*.btnOnForm {*/
+/*    border-radius: 0 5px 5px 0;*/
+/*    width: 151px;*/
+/*    height: 36px;*/
+/*    border: none;*/
+/*    font-size: 14px;*/
+/*    background-color: #6666CC;*/
+/*}*/
+
+/*.blockExampleContainer {*/
+/*    margin: 0 29px 0 32px;*/
+/*    display: flex;*/
+/*    gap: 16px;*/
+/*}*/
+
+/*.exampleText {*/
+/*    width: 488px;*/
+/*    height: 54px;*/
+/*    font-size: 12px;*/
+/*}*/
+
+/*.modal-footer {*/
+/*    padding: 0;*/
+/*    justify-content: flex-start;*/
+/*    margin-top: 44px;*/
+/*    margin-left: 35px;*/
+/*    margin-bottom: 40px;*/
+/*    height: 36px;*/
+/*    border: none;*/
+/*}*/
+
+/*.btnCloseModal {*/
+/*    border: none;*/
+/*    background-color: #B1B1B1;*/
+/*    width: 151px;*/
+/*    height: 36px;*/
+/*}*/
+
+/*.btnCreateModal {*/
+/*    background-color: #55C97B;*/
+/*    border: none;*/
+/*    width: 151px;*/
+/*    height: 36px;*/
+/*}*/
+
+

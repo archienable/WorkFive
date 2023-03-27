@@ -1,0 +1,54 @@
+.navContainer {
+    background-color: #FFFFFF;
+    height: 100vh;
+    right: 0;
+    padding-right: 38px;
+    padding-left: 25px;
+    flex: 0 0 256px;
+}
+
+.navBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.logoWork {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width: 82px;
+    height: 32px;
+    background-image: url("../../png/logoWork5.png");
+}
+
+.navItem {
+    display: flex;
+    color: grey;
+    text-decoration: none;
+    gap: 10px;
+}
+
+@media (max-width: 420px) {
+    .navContainer {
+        padding-right: 5px;
+        padding-left: 10px;
+        flex: none;
+        width: 120px;
+    }
+
+    .navBlock {
+        font-weight: 200;
+        font-size: 8px;
+        gap: 10px;
+    }
+
+    .navItem {
+        align-items: center;
+    }
+
+    .navItem svg {
+        width: 10px;
+    }
+}

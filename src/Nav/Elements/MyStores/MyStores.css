@@ -1,0 +1,156 @@
+.btn {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.contentBlockMyStores {
+    margin-top: 25px;
+    padding: 26.5px 33px 34px 31px;
+    background-color: white;
+    width: 1001px;
+    border-radius: 5px;
+    box-shadow: 0 11px 21px rgba(40, 40, 40, 0.07);
+    /*height: 219px;*/
+}
+
+.btnCreateYourStore {
+    background-color: #55C97B;
+    border: none;
+    width: 186px;
+    height: 36px;
+}
+
+.blockEach {
+    display: flex;
+}
+
+.blockHeader {
+    margin-bottom: 26.5px;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.blockList {
+    /*max-width: 937px;*/
+    border-bottom: 1px solid rgba(110, 110, 110, 0.35);
+    padding-top: 19px;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.nameItem {
+    padding-left: 77px;
+    padding-right: 131px;
+}
+
+.actionItem {
+    padding-left: 213px;
+}
+
+.blockNumberItem {
+    color: #6E6E6E;
+}
+
+.blockNameItem {
+    margin-left: 50px;
+    color: #6E6E6E;
+}
+
+.blockActionItem {
+    margin-left: 60px;
+    color: #6E6E6E;
+}
+
+.blockButtons {
+    display: flex;
+    gap: 10px;
+    margin-left: 69px;
+}
+.btn {
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.btnRedactor {
+    background-color: #55C97B;
+    border: none;
+    width: 149px;
+    height: 36px;
+}
+
+.btnRedactorDelete {
+    background-color: #B1B1B1;
+    border: none;
+    width: 149px;
+    height: 36px;
+}
+
+@media (max-width: 420px) {
+    .contentBlockMyStores {
+        width: 250px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .eachItem {
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .blockList {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .nameItem {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .addressItem {
+        margin-right: 10px;
+    }
+
+    .dataItem {
+        font-size: 8px;
+    }
+
+    .blockList {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blockButtons {
+        margin-top: 10px;
+        margin-left: 0;
+        margin-bottom: 5px;
+        height: 40px;
+        /*margin: 0;*/
+    }
+
+    .btnRedactor {
+        width: 100px;
+        padding: 0;
+        font-size: 8px;
+    }
+
+    .btnRedactor svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .btnRedactorDelete {
+        width: 100px;
+        padding: 0;
+        font-size: 8px;
+    }
+
+    .btnRedactorDelete svg {
+        width: 10px;
+        height: 10px;
+    }
+
+}
